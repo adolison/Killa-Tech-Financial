@@ -26,6 +26,10 @@ public class Accounts {
     @JsonBackReference
     private Customer customer;
 
+   /* protected Accounts(String nickname){
+        this.nickname = nickname;
+
+    }*/
     public Long getId() {
         return id;
     }
